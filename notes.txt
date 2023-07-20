@@ -1,0 +1,6 @@
+Two Types of LLMs
+Base LLM
+	Predicts next word, based on text training data
+Instruction Tuned LLM
+	Tries to follow instructions
+
