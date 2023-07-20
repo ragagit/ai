@@ -8,7 +8,7 @@ import time
 # from dotenv import load_dotenv, find_dotenv
 # _ = load_dotenv(find_dotenv())
 
-openai.api_key = "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"
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
